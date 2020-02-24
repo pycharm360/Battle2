@@ -32,7 +32,3 @@ class Person:
         return random.randrange(mgl, mgh)
 
     def take_damage(self, dmg):
-        self.hp = self.hp - dmg
-        if self.hp < 0:
-            self.hp = 0
-        return self.hp
